@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Registrar Avances</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="CSS/estilos2.css">
+    <link rel="icon" href="Imagenes/icon.png">
+</head>
+<body>
+    <header>
+        <img id="icon_header" src="Imagenes/icon.png">
+        <h3 id="titulo_header">Avances COVID-19 Colombia</h3>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="avance.html" id="avance_header">REGISTRAR AVANCE</a></li>
+                <li><a href="reporte.html">REPORTE DE AVANCES</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h2 id="titulo_registro">AGREGAR NUEVO REGISTRO</h2>
+        <form>
+            <label for="departamento" class="titulos">Departamento</label><br>
+            <select name="departamento" id="departamento">
+                <option value="seleccionar" selected disabled>Seleccione el departamento</option>
+                <option value="amazonas">Amazonas</option>
+                <option value="antioquia">Antioquia</option>
+                <option value="arauca">Arauca</option>
+                <option value="atlantico">Atlántico</option>
+                <option value="bolivar">Bolívar</option>
+                <option value="boyaca">Boyacá</option>
+                <option value="caldas">Caldas</option>
+                <option value="caqueta">Caquetá</option>
+                <option value="casanare">Casanare</option>
+                <option value="cauca">Cauca</option>
+                <option value="cesar">Cesár</option>
+                <option value="choco">Chocó</option>
+                <option value="cordoba">Córdoba</option>
+                <option value="cundinamarca">Cundinamarca</option>
+                <option value="guainia">Guainía</option>
+                <option value="guaviare">Guaviare</option>
+                <option value="huila">Huila</option>
+                <option value="guajira">La Guajira</option>
+                <option value="magdalena">Magdalena</option>
+                <option value="meta">Meta</option>
+                <option value="narino">Nariño</option>
+                <option value="nortesantander">Norte de Santander</option>
+                <option value="putumayo">Putumayo</option>
+                <option value="quindio">Quindío</option>
+                <option value="risaralda">Risaralda</option>
+                <option value="sanandresprovidencia">San Andrés y Providencia</option>
+                <option value="santander">Santander</option>
+                <option value="sucre">Sucre</option>
+                <option value="tolima">Tolima</option>
+                <option value="valledelcauca">Valle del Cauca</option>
+                <option value="vaupes">Vaupés</option>
+                <option value="vichada">Vichada</option>
+            </select><br><br>
+            <label class="titulos">Ciudad:</label><br>
+            <input type="text" id="ciudad" name="ciudad" placeholder="Ingrese la ciudad"><br><br>
+            <label class="titulos">Género:</label><br>
+            <div class="container_radio">
+                <input type="radio" id="genero1" name="genero" value="hombre">
+                <label for="genero1">Hombre</label>
+                <input type="radio" id="genero2" name="genero" value="mujer">
+                <label for="genero2">Mujer</label>
+            </div><br>
+            <label class="titulos">Edad:</label><br>
+            <input type="number" id="edad" name="edad" placeholder="Ingrese la edad"><br><br>
+            <label class="titulos">Causa:</label><br>
+            <select name="causa" id="causa">
+                <option value="seleccionarcausa" selected disabled>Seleccione la causa</option>
+                <option value="importado">Importado (Viaje)</option>
+                <option value="relacionado">Relacionado</option>
+                <option value="estudio">En Estudio</option>
+            </select> <br><br>
+            <label class="titulos">Manejo:</label><br>
+            <div class="container_manejo">
+                <input type="radio" id="manejo1" name="manejo" value="casa">
+                <label for="manejo1">Casa</label>
+                <input type="radio" id="manejo2" name="manejo" value="hospital">
+                <label for="manejo2">Hospital</label>
+                <input type="radio" id="manejo3" name="manejo" value="uci">
+                <label for="manejo3">UCI</label>
+            </div><br>
+            <label class="titulos">Estado:</label><br>
+            <div class="container_estado">
+                <input type="radio" id="estado1" name="estado" value="recuperado">
+                <label for="estado1">Recuperado</label>
+                <input type="radio" id="estado2" name="estado" value="deceso">
+                <label for="estado2">Deceso</label>
+            </div><br>
+            <label class="titulos">Fecha:</label><br>
+            <input type="date" id="fecha"><br><br>
+            <input type="submit" value="Agregar" id="agregar"><br><br>
+        </form>
+    </div>
+    <footer>
+        <div id="container_f">
+            <div>
+                <img id="icon" src="Imagenes/twiter.png">
+            </div>
+            <div>
+                <p>@avancescolombiac19</p>
+            </div>
+        </div>
+        <div id="container_f">
+            <div>
+                <img id="icon" src="Imagenes/facebook.png">
+            </div>
+            <div>
+                <p>avancescolombiac19</p>   
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

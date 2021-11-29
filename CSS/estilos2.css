@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap');
+
+.container{
+    background: rgba(255, 255, 255, .7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-family: 'Jost', sans-serif;
+    border-radius: 8px;
+}
+
+.menu #avance_header{
+    text-decoration:underline;
+}
+
+#titulo_registro{
+    color: rgb(47, 3, 97);
+}
+
+form{
+    text-align: center;
+    margin-bottom: 20px;
+    width: 255px;
+}
+
+form .titulos{
+    color: rgb(58, 58, 61);
+}
+
+.container_radio, .container_manejo, .container_estado label{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+select{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    width: 252px;
+    padding: 6px;
+    outline: none;
+}
+
+input, select{
+    border: none;
+    border-radius: 5px;
+}
+
+
+#edad, #ciudad{
+    outline: none;
+    border: solid 1px #999;
+    padding: 6px;
+    width: 240px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+#fecha{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    width: 240px;
+    padding: 5px;
+    border: solid 1px #999;
+}
+
+.container_manejo #manejo2, #manejo3, #estado2, #genero2{
+    margin-left: 30px;
+}
+
+#causa, #departamento{
+    border: solid 1px #999;
+}
+
+#agregar{
+    width: 150px;
+    padding: 6px;
+    border: solid 1px #999;
+    font-family: 'Jost', sans-serif;
+    font-size: 15px;
+    background-color: rgb(5, 6, 97);
+    color: white;
+}
